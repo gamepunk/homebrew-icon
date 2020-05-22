@@ -11,6 +11,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 if len(argv) > 1:
     app = argv[1]
+    print("(Ptyhon)请输入要查找的APP: {}".format(app))
 else:
     app = input("(Ptyhon)请输入要查找的APP: ")
 base_url = 'https://itunes.apple.com/search?'
