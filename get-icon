@@ -7,9 +7,9 @@ require 'json'
 
 if ARGV.count.positive?
   app = ARGV[0]
-  puts "请输入要查找的APP: #{app}"
+  puts "(Ruby)请输入要查找的APP: #{app}"
 else
-  print "请输入要查找的APP: "
+  print "(Ruby)请输入要查找的APP: "
   app = $stdin.gets.chomp
 end
 
